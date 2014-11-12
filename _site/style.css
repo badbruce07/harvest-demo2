@@ -266,6 +266,10 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand .harvest {
+        
+    }
+    
+    .navbar-default.navbar-shrink .harvest {
         margin-top: -30px;
         width: 120px;
         height:80px;
