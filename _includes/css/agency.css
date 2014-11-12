@@ -246,6 +246,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -257,9 +258,10 @@ fieldset[disabled] .btn-xl.active {
         background-color: #FFD700;
     }
 
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-        color: #f00;
+    .navbar-default.navbar-shrink .navbar-brand .harvest {
+        margin-top: -30px;
+        width: 120px;
+        height:80px;
     }
 }
 
