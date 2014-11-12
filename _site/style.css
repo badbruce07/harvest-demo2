@@ -265,14 +265,9 @@ fieldset[disabled] .btn-xl.active {
         background-color: #FFD700;
     }
 
-    .navbar-default.navbar-shrink .navbar-brand .harvest {
+    .navbar-default.navbar-shrink .navbar-brand.harvest {
+        font-size: 1.5em;
         
-    }
-    
-    .navbar-default.navbar-shrink .harvest {
-        margin-top: -30px;
-        width: 120px;
-        height:80px;
     }
 }
 
