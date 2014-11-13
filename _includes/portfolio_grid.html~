@@ -11,24 +11,22 @@
       </div>
       
       <div class="row">
-      	{% for post in site.posts %}
-        	<div class="col-md-4 col-sm-6 portfolio-item">
-         	<a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-            	
-            	<div class="portfolio-hover">
-               	<div class="portfolio-hover-content">
-                  	<i class="fa fa-plus fa-3x"></i>
-                  </div>
-              	</div>
-               <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
-          	</a>
-            
-            <div class="portfolio-caption">
-            	<h4>{{ post.title }}</h4>
-               <p class="text-muted">{{ post.subtitle }}</p>
-           	</div>
-        	</div>
-         {% endfor %}
+      	<div class="row text-center">
+	        	<div class="col-md-4 col-sm-6">
+					<img src="./img/services/icon-tracktor.png" alt="">
+               <h4 id="u140-4"> Agriculture Production Data </h4>     
+          	</div>
+                
+            <div class="col-md-4 col-sm-6">
+            	<img src="./img/services/icon-price.png" alt="">
+               <h4 id="u140-4"> Weekly Price Data </h4>
+          	</div>
+                
+            <div class="col-md-4 col-sm-6">
+            	<img src="./img/services/icon-farmer.png" alt="">
+               <h4 id="u140-4"> Producer Information </h4>
+            </div>
+			</div>
     	</div>
 	</div>
 </section>
