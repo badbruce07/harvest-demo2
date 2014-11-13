@@ -65,6 +65,16 @@
 						<li id="names4"> @varunbaker </li>
 					<ul>				
 				</div>
+				
+				<div class="col-md-2 col-sm-6">
+					<ul class="list-contributors">
+						<li> <img src="./img/platform/david.jpg" alt=""> </li>
+						<li id="names-main2"> David Soutar </li>
+						<li id="names2"> @davidsoutar </li>
+					<ul>				
+				</div>
+				
+				
       		
 			</div>
 		</div>      

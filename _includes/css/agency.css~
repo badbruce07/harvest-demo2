@@ -77,7 +77,7 @@ ul.list-user1 li:before
 	
 }
 
-ul .list-contributors{
+ul.list-contributors{
 	list-style-type: none;
 }
 
