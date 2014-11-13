@@ -4,9 +4,23 @@
    	<div class="row">
       	
       	<div class="col-lg-12 text-center">
-	         <h2 class="section-heading">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+	         <h2 class="section-heading"> Supporting Collaboration </h2>
+            <h3 class="text-muted2"> HarvestAPI was made possible by a collaboration between </h3>
    		</div>
+      </div>
+      
+      <div class="row">
+      	<div class="row text-center">
+      		<div class="col-md-3 col-sm-6">
+      			<img src="../img/platform/rada2.png" alt="">
+      		</div>
+      		<div class="col-md-3 col-sm-6">
+      			<img src="../img/platform/c4c logo.png" alt="">
+      		</div>
+      		<div class="col-md-3 col-sm-6">
+      			<img src="../img/platform/Final Logos-Long Form Logo.png" alt="">
+      		</div>
+      	</div>
       </div>
          
       <div class="row">
@@ -22,31 +36,31 @@
                      	<p class="help-block text-danger"></p>
                    	</div>
                    	
-                        <div class="form-group">
-                        	<input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                           <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                        	<input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                           <p class="help-block text-danger"></p>
-                       	</div>
+                    	<div class="form-group">
+                     	<input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                     	<p class="help-block text-danger"></p>
+                    	</div>
+                    	<div class="form-group">
+                     	<input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                    		<p class="help-block text-danger"></p>
                    	</div>
+              		</div>
                      
-                     <div class="col-md-6">
-                     	<div class="form-group">
-                        	<textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                           <p class="help-block text-danger"></p>
-                      	</div>
-                     </div>
+               	<div class="col-md-6">
+                  	<div class="form-group">
+                     	<textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                       	<p class="help-block text-danger"></p>
+                   	</div>
+                	</div>
                      
-                     <div class="clearfix"></div>
-							<div class="col-lg-12 text-center">
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-xl">Send Message</button>
-               		</div>
-            		</div>
-         		</form>
-      		</div>
-			</div>
+                 	<div class="clearfix"></div>
+						<div class="col-lg-12 text-center">
+                   	<div id="success"></div>
+                		<button type="submit" class="btn btn-xl">Send Message</button>
+               	</div>
+            	</div>
+         	</form>
+      	</div>
 		</div>
-    </section>
+	</div>
+</section>
