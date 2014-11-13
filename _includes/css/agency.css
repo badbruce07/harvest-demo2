@@ -351,6 +351,15 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+section h2.u160-2
+{
+	font-size: 38px;
+	line-height: 46px;
+	color: #545454;
+	font-weight: bold;
+	text-align: left;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
