@@ -47,7 +47,7 @@
                 <div class="intro-lead-in"> 
                 	HarvestAPI is an open-data platform for sharing of agriculture sector information.
                 </div>
-                <div intro-heading><h2 id="info_farm">Information to power the agriculture industry</h2></div>
+                <div intro-heading>Information to power the agriculture industry</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
