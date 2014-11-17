@@ -381,7 +381,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-        margin-left: -30px;
+        margin-left: -20px;
     }
 
     .navbar-default .navbar-brand {
@@ -390,6 +390,7 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: all .3s;
         transition: all .3s;
         color: #000;
+        margin-left: -25px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -404,7 +405,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
         color: #f00;
-        margin-left: -30px;
+        margin-left: -25px;
     }
 }
 
@@ -430,44 +431,50 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+   margin-bottom: 25px;
+   margin-top: 60px;
+   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+   font-size: 29px;
+   line-height: 35px;
+	color: #FFFFFF;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 50px;
+   margin-bottom: 25px;
+   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+   line-height: 45px;
+	font-size: 40px;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-    }
-
-    header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 75px;
     }
+
+	header .intro-text .intro-lead-in {
+   	margin-bottom: 25px;
+      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+      font-size: 50px;
+      line-height: 40px;
+      color: #FFFFFF;
+	}
+
+  	header .intro-text .intro-heading {
+      margin-bottom: 25px;
+      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+      line-height: 60px;
+		font-size: 60px;
+		text-align: center;
+		color: #000000;
+		font-weight: bold;
+		margin-top: 20px;
+	}
 }
 
 section {
