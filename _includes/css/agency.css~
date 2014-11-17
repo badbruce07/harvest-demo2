@@ -37,11 +37,12 @@ color: #545454;
 }
 
 h3.text-muted4{
-font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-text-align: left;
-font-size: 24px;
-color: #545454;
-text-transform: none;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 24px;
+	color: #545454;
+	text-transform: none;
+	font-weight: normal;
 }
 
 p.text-muted3 {
@@ -62,8 +63,7 @@ ul.list-user{
 }
 
 ul.list-user li:before
-{		
-	
+{
 	content: "-";
 	width: 1em;	
 }
@@ -135,7 +135,7 @@ li#names3{
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
- .text1{
+.text1{
 	font-size: 24px;
 	line-height: 29px;
 	color: #545454;
@@ -161,7 +161,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
+	outline: 0;
 }
 
 a {
@@ -181,9 +181,9 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+	text-transform: uppercase;
+ 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	font-weight: 700;
 }
 
 .img-centered {
