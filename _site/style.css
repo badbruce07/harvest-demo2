@@ -376,6 +376,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
+        font-weight: 300;
         background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -396,7 +397,6 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: all .3s;
         transition: all .3s;
         color: #000;
-        margin-left: -25px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -410,7 +410,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-        color: #f00;
+        color: #006400;
         margin-left: -25px;
     }
 }
