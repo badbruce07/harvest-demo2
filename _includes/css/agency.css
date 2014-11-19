@@ -318,7 +318,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #000;
+    color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-collapse {

@@ -318,7 +318,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #000;
+    color: #58A4FA;
 }
 
 .navbar-default .navbar-collapse {
@@ -361,7 +361,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #000;
     background-color: #{{ site.color.secondary }};
 }
 
