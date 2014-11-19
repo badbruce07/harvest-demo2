@@ -318,7 +318,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.color.secondary }};
+    color: #000;
 }
 
 .navbar-default .navbar-collapse {
@@ -350,60 +350,59 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #58a4fa;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #7a5f0b;
     background-color: #{{ site.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #000;
     background-color: #{{ site.color.secondary }};
 }
 
 @media(min-width:768px) {
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        font-weight: 300;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-        margin-left: -20px;
-    }
+	.navbar-default {
+   	padding: 25px 0;
+      border: 0;
+      font-weight: 300;
+      background-color: transparent;
+      -webkit-transition: padding .3s;
+      -moz-transition: padding .3s;
+      transition: padding .3s;
+      margin-left: -20px;
+ 	}
     
-    .navbar-default.navbar-brand{
-    	padding: 10px 0;
+   .navbar-default.navbar-brand{
+   	padding: 10px 0;
     	margin-top: -50px;
+   }
     
-    }
-    
 
-    .navbar-default .navbar-brand {
-        font-size: 1.5em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-        color: #000;
-    }
+   .navbar-default .navbar-brand {
+   	font-size: 1.5em;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+      color: #000;
+ 	}
 
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
+   .navbar-default .navbar-nav>.active>a {
+   	border-radius: 3px;
+   }
 
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #FFD700;
-    }
+   .navbar-default.navbar-shrink {
+   	padding: 10px 0;
+      background-color: #FFD700;
+ 	}
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-        color: #006400;
+        color: #000;
         margin-left: -25px;
     }
 }
