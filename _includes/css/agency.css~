@@ -345,12 +345,13 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 300;
     letter-spacing: 1px;
     color: #006400;
+    padding: 10px 14px;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #58a4fa;
+    color: #140B7A;
 }
 
 .navbar-default .navbar-nav>.active>a {

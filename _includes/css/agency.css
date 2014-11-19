@@ -345,6 +345,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 300;
     letter-spacing: 1px;
     color: #006400;
+    padding: 18.5px 14px;
 }
 
 .navbar-default .nav li a:hover,
