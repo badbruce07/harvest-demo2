@@ -411,7 +411,6 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
         color: #000;
-        margin-left: -25px;
     }
 }
 
@@ -419,7 +418,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/harvest_bg.png);
+    background-image: url(../img/vector_bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
