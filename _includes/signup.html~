@@ -1,0 +1,68 @@
+<!-- SignUp Section -->
+<section id="signup">
+
+<div class="container">
+            
+	<div class="text-center">
+      
+  		<div class="row">
+      	
+      	<div class="col-md-6 col-sm-6">
+ 				<p class="text-muted1"> Who should use it? </p>
+          	<ul class="list-user">
+            	<li> Farmers </li>
+              	<li> Supermarkets </li>
+            	<li> Startups </li>
+             	<li> Government Agencies </li>
+             	<li> Academia </li>
+             	<li> Financial Institutions </li>
+           	</ul>
+				<br/>                    
+            <p class="text1 col-md-12" > 
+            Want to learn how you can too can build interesting products using HarvestAPI? 
+            Check out our documentation here! 
+            </p>
+       	</div>
+       	<br/>
+
+        	<div class="col-md-6 col-sm-6">
+        		<p class="text-muted1">  Create an account </p>
+        		<br/>
+        		<form name="sentMessage" id="contactForm" novalidate>
+            	<div class="row">
+               	<div class="col-md-6">
+                  	
+                    	<div class="form-group">
+                     	<input type="text" class="form-control" placeholder="Username *" id="name" required data-validation-required-message="Please enter your username.">
+                       	<p class="help-block text-danger"></p>
+                    	</div>
+                    	   
+                    	<div class="form-group">
+                     	<input type="email" class="form-control" placeholder="Email Address *" id="email" required data-validation-required-message="Please enter your email address.">
+                       	<p class="help-block text-danger"></p>
+                    	</div>
+                    	
+                  	<div class="form-group">
+                   		<input type="password" class="form-control" placeholder="Password *" id="password" required data-validation-required-message="Please enter your password.">
+                      	<p class="help-block text-danger"></p>
+                   	</div>
+                   	
+                  	<div class="form-group">
+                   		<input type="password" class="form-control" placeholder="Repeat Password *" id="repeat_password" required data-validation-required-message="Please re-enter your password.">
+                      	<p class="help-block text-danger"></p>
+                   	</div>
+                 	</div>
+                            
+               	<div class="clearfix"></div>
+               	
+               	<div class="col-md-6 text-center">
+             			<div id="success"></div>
+                    	<button type="submit" class="btn btn-xl"> Register </button>
+                 	</div>
+              	</div>
+          	</form>
+       	</div>
+    	</div>
+	</div>	
+</div>	
+</section>
