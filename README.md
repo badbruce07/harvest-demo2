@@ -47,7 +47,7 @@ Images are found in '/img/services/'
 - Academia
 - Financial Institutions
 
-There is also provided a registration column where you can sign up.
+There is also provided a registration section where you can sign up.
 
 The link to the file is in <b> '/_includes/signup.html' </b>
 <br/>
